@@ -51,7 +51,7 @@ variable "endpoint_public_access" {
 
 variable "ondemand_instance_types" {
   type    = list(string)
-  default = ["t3.small"]
+  default = ["m7i-flex.large"]
 }
 
 variable "desired_capacity_on_demand" {
@@ -85,3 +85,4 @@ variable "aws_region" {
   type        = string
   default     = "us-east-1"
 }
+
