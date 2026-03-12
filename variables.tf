@@ -56,7 +56,7 @@ variable "ondemand_instance_types" {
 
 variable "desired_capacity_on_demand" {
   type    = number
-  default = 1
+  default = 2
 }
 
 variable "min_capacity_on_demand" {
@@ -85,4 +85,5 @@ variable "aws_region" {
   type        = string
   default     = "us-east-1"
 }
+
 
