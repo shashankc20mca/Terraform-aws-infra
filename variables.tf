@@ -5,7 +5,7 @@ variable "ami" {
   default = "ami-0f3caa1cf4417e51b"
 }
 variable "instance_type" {
-  default = "t3.micro"
+  default = "m7i-flex.large"
 }
 variable "key" {
   default = "Modern-Musician-Portfolio-dev-nvirg"
